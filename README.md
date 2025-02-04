@@ -22,7 +22,7 @@ if you want to generate a triplet dataset, use process_and_dump_files(source_fol
 Training the model: the training loop is in main_DL_audioproj.py. note that if you want to do training with auxiliary data fill training_type='AUX' , and  aux_val_loader,aux_train_loader should be inserted also. 
 
 Testing the model: 
-use test_audioproj.py with the prefeneced method. 
+use test_audioproj.py with the prefeneced method, you could generate your own data or load the .pkl file in the results folder
 
 
 
